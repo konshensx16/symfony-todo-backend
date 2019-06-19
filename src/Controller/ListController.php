@@ -94,7 +94,6 @@ class ListController extends AbstractFOSRestController
 
             $task = new Task();
             $task->setTitle($title);
-            $task->setList($list);
 
             $list->addTask($task);
 
