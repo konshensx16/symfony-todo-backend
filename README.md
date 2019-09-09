@@ -48,6 +48,13 @@ __NOTE ABOUT THE PASSWORD: This password is the hashed version of [000000], just
 
 This one error could happen because of multiple error due to the very bad error reporting of this library or whatever is responsible for that, the main thing to keep in mind is anything could lead to this type of problems
 
+## Examples
+* Database server not running will throw this error.
+* The password is not encoded in the correct way.
+* You didn't generate the public and private keys files correctly.
+* The passphrase used during public and private key generation does not match the one used in the configuration file.
+* TODO (Add more as more emails come in)
+
 # Contributing
 This project is open for everyone, if you notice anything wrong with my code, or even this readme, any mistakes are welcome.
 
